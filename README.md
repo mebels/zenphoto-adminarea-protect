@@ -20,7 +20,7 @@ for bcrypt
 
 When calling the following URLs, the Apache server takes password protection.
    
-https://www.example.com/admin.php   
-https://www.example.com/zp-core/admin.php   
-https://www.example.com/zp-core/admin-{whatever}.php   
+`example.com/admin.php`   
+`example.com/zp-core/admin.php`   
+`example.com/zp-core/admin-{whatever}.php`   
   
