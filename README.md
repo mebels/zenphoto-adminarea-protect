@@ -18,6 +18,8 @@ for SHA:
 for bcrypt   
 `htpasswd -bB .htpasswd username password`
 
+ATTENTION: Please use only ASCII Signs for username and password.
+
 When calling the following URLs, the Apache server takes password protection.
    
 `example.com/admin.php`   
