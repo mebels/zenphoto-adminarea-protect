@@ -9,17 +9,18 @@ The contents of the files are published here for an example in the folder `/zp-c
 
 The user and the password can be generated via command line and changed at any time.
 
-first, go into the folder /zp-core/
+first, go into the folder /zp-core/   
 `cd /var/www/virtual/user/html/zp-core/`
 
-for SHA:
+for SHA:   
 `htpasswd -bs .htpasswd username password`
 
-for bcrypt
+for bcrypt   
 `htpasswd -bB .htpasswd username password`
 
 When calling the following URLs, the Apache server takes password protection.
-
-https://www.example.com/admin.php
-https://www.example.com/zp-core/admin.php
-https://www.example.com/zp-core/admin-{whatever}.php
+   
+https://www.example.com/admin.php   
+https://www.example.com/zp-core/admin.php   
+https://www.example.com/zp-core/admin-{whatever}.php   
+  
