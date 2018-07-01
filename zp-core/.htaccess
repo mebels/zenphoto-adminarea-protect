@@ -1,0 +1,6 @@
+<FilesMatch "(^admin\.php$|^admin(.*)\.php$)">
+AuthType Basic
+AuthName "Privat"
+AuthUserFile "/var/www/virtual/user/html/zp-core/.htpasswd"
+Require valid-user
+</FilesMatch>
